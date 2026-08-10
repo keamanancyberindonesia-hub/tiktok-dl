@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
+  basePath: "/tiktok-dl",
+  assetPrefix: "/tiktok-dl/",
   images: {
     unoptimized: true,
     remotePatterns: [
